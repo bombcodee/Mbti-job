@@ -4,7 +4,7 @@ export const questions = [
     question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
     choices: [
       { text: '파티 스텝은 못하지ㅎ...<br>(그래도 파티는 재밌겠다 히히)', value: 'i' },
-      { text: '재밌겠다!<br>○○한테 같이 지원하자고 해야지~', value: 'e' }
+      { text: '재밌겠다!<br> 친구한테 같이 지원하자고 해야지~', value: 'e' }
     ]
   },
   {
@@ -28,7 +28,7 @@ export const questions = [
     question: '대규모 프로젝트를 맡게 되어 떨리는 마음에 처음 시작한 건?',
     choices: [
       { text: '큰 프로젝트인 만큼 계획이 중요해!<br>목적과 목표 먼저 정리해봐야지!', value: 'j' },
-      { text: '당장 미팅 잡고<br>팀원이랑 이야기하면 되겠지?', value: 'p' }
+      { text: '당장 미팅 잡고<br>팀원이랑 이야기해보면 방향이 잡힐거야!', value: 'p' }
     ]
   },
   {
@@ -76,7 +76,7 @@ export const questions = [
     question: '회사에서 진급 대상이 되었다.<br>나의 마음은?',
     choices: [
       { text: '드디어 회사가 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
-      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 ○○ 사야지~ (상상의 나래~)', value: '' }
+      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 노트북 사야지~ (상상의 나래~)', value: '' }
     ]
   },
 ]

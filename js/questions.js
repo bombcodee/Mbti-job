@@ -17,20 +17,28 @@ function renderQuestion() {
   questionEl.innerHTML = question.question
   choice1El.innerHTML = question.choices[0].text
   choice2El.innerHTML = question.choices[1].text
+  
   progressValueEl.style.width = (currentNumber+1) * 10 + '%'
+  if(currentNumber === 9)
+  {
+    progressValueEl.style.backgroundColor = '#32BFA1';
+  }
+  
 }
 
 function nextQuestion(choiceNumber) {
   if(currentNumber === questions.length-1)
   {
-    questionEl.innerHTML = '끝!!'
-    setTimeout(function(){showResultPage()},3000)
+    //questionEl.innerHTML = '끝!!'
+   // setTimeout(function(){showResultPage()},3000)
+    showResultPage()
     return
   }
   const question = questions[currentNumber]
   mbti = mbti + question.choices[choiceNumber].value
   // mbti = 하나씩 더해지게끔
   currentNumber = currentNumber + 1
+  
   renderQuestion()
 }
 
