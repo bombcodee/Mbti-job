@@ -1,10 +1,11 @@
 /* 메인페이지 css */
 
 body {
-  background-color: #F6FCFF;
+  background-color: #f6fcff;
   background-image: url("../images/main_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 /* img 태그는 inline요소 즉, 글자 요소 판단(글자를 보안하기 위해 만들어졌기 때문)
